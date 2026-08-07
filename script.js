@@ -22,13 +22,25 @@ const tbody = document.getElementById('tbody');
 const typeFilter = document.getElementById('typeFilter');
 const searchInput = document.getElementById('searchInput');
 
+// Preloads all images into browser memory cache immediately on load
+function preloadImages(cards) {
+  const urls = [...new Set(cards.map(c => c.img))];
+  urls.forEach(url => {
+    const img = new Image();
+    img.src = url;
+  });
+}
+
 async function init() {
   try {
     const res = await fetch('cards.json');
     CARDS = await res.json();
 
-    // Assign unique IDs to cards so duplicates (e.g. 1LB vs MLB) are tracked separately
+    // Assign unique IDs to cards
     CARDS.forEach((c, i) => c.id = i);
+
+    // Preload all card images into browser cache
+    preloadImages(CARDS);
 
     // Set meta data
     document.getElementById('metaCount').textContent = CARDS.length;
@@ -149,7 +161,7 @@ function renderTable() {
       <td class="rank ${rankClass}">${i + 1}</td>
       <td class="name-cell" style="--lane-color:${laneColor}">
         <div class="card-info">
-          <img src="${c.img}" alt="${c.name}" class="card-thumb" loading="lazy">
+          <img src="${c.img}" alt="" class="card-thumb">
           <span>${c.name}</span>
         </div>
       </td>
@@ -209,7 +221,7 @@ function updateDeckUI() {
       slot.className = 'deck-slot filled';
       slot.style.setProperty('--lane-color', laneColor);
       slot.innerHTML = `
-        <img src="${c.img}" alt="${c.name}" class="slot-img">
+        <img src="${c.img}" alt="" class="slot-img">
         <div class="slot-info">
           <span class="slot-name">${c.name}</span>
           <div class="slot-tags">
@@ -230,7 +242,7 @@ function updateDeckUI() {
     slotsEl.appendChild(slot);
   }
 
-  // Calculate sum of stats for deck cards
+  // Calculate sum of stats
   const totSpeed = deck.reduce((a, c) => a + (c.speed || 0), 0);
   const totStamina = deck.reduce((a, c) => a + (c.stamina || 0), 0);
   const totPower = deck.reduce((a, c) => a + (c.power || 0), 0);
@@ -291,7 +303,7 @@ function renderTierList() {
         
         cardEl.innerHTML = `
           <div class="card-thumb-wrapper">
-            <img src="${c.img}" alt="${c.name}" class="tier-card-img" loading="lazy">
+            <img src="${c.img}" alt="" class="tier-card-img">
             <span class="badge-score">${c.score.toFixed(2)}</span>
             <span class="badge-rb">${c.rb}RB</span>
             <span class="badge-type" style="color:${LANE_COLORS[c.type] || 'var(--gold)'}">${c.type}</span>

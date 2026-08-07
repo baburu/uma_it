@@ -14,7 +14,7 @@
   --lane-guts: #f472b6;    /* Vibrant Pink */
   --lane-wit: #34d399;     /* Emerald Green */
   --lane-friend: #facc15;  /* Gold/Yellow */
-  --lane-group: #a855f7;   /* Purple */
+  --lane-group: #78cb32;   /* Group Green */
   
   --gold: #e0b84b;
 }
@@ -90,9 +90,10 @@ h1{
   margin-top:2px;
 }
 
+/* Left-aligned wrapper */
 .wrap{ 
   padding:32px 4vw 80px; 
-  max-width: 1400px;
+  max-width: 1350px;
   margin: 0;
 }
 
@@ -296,8 +297,8 @@ td.name-cell::before{
   background:#202430;
   flex-shrink:0;
   border:1px solid rgba(255,255,255,0.1);
-  font-size:10px;
-  color:var(--text-dim);
+  font-size:0;
+  color:transparent;
 }
 
 .rank{
@@ -345,10 +346,7 @@ td.num{
   text-align: center;
 }
 
-/* ========================================= */
-/* TAB 2: DECK BUILDER & TIER LIST STYLES    */
-/* ========================================= */
-
+/* TAB 2: DECK BUILDER & TIER LIST STYLES */
 .deck-layout {
   display: grid;
   grid-template-columns: 340px 1fr;
@@ -360,7 +358,6 @@ td.num{
   .deck-layout { grid-template-columns: 1fr; }
 }
 
-/* Deck Sidebar */
 .deck-box {
   background: var(--panel);
   border: 1px solid var(--line);
@@ -391,7 +388,6 @@ td.num{
   font-weight: 600;
 }
 
-/* Deck Slots */
 .deck-slots {
   display: flex;
   flex-direction: column;
@@ -428,6 +424,8 @@ td.num{
   border-radius: 4px;
   object-fit: cover;
   flex-shrink: 0;
+  font-size: 0;
+  color: transparent;
 }
 
 .slot-info {
@@ -469,7 +467,6 @@ td.num{
 
 .btn-remove-slot:hover { color: #ff5252; }
 
-/* Deck Totals Grid */
 .deck-totals h3 {
   margin: 0 0 10px;
   font-size: 15px;
@@ -526,7 +523,6 @@ td.num{
 
 .btn-clear:hover { background: #2b3042; }
 
-/* Tier Section */
 .tier-controls {
   display: flex;
   gap: 12px;
@@ -602,6 +598,8 @@ td.num{
   width: 100%;
   height: 100%;
   object-fit: cover;
+  font-size: 0;
+  color: transparent;
 }
 
 .badge-score {
@@ -693,13 +691,6 @@ footer{
   letter-spacing:.03em;
 }
 
-.footer-credit{
-  color: var(--gold);
-  font-size: 12px;
-  letter-spacing: .15em;
-  text-transform: uppercase;
-}
-
 footer a {
   color: var(--lane-speed);
   text-decoration: none;
@@ -709,6 +700,13 @@ footer a {
 footer a:hover {
   color: var(--gold);
   text-decoration: underline;
+}
+
+.footer-credit{
+  color: var(--gold);
+  font-size: 12px;
+  letter-spacing: .15em;
+  text-transform: uppercase;
 }
 
 @media (max-width:640px){

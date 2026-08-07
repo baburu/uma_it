@@ -22,7 +22,7 @@ const tbody = document.getElementById('tbody');
 const typeFilter = document.getElementById('typeFilter');
 const searchInput = document.getElementById('searchInput');
 
-// Preloads all images into browser memory cache immediately on load
+// Preloads all images into browser memory cache
 function preloadImages(cards) {
   const urls = [...new Set(cards.map(c => c.img))];
   urls.forEach(url => {
@@ -96,7 +96,7 @@ async function init() {
     document.getElementById('btnClearDeck').addEventListener('click', () => {
       deck = [];
       updateDeckUI();
-      renderTierList();
+      syncTierListDeckState();
     });
 
     // Table Header Sorting
@@ -190,19 +190,43 @@ function addToDeck(card) {
   if (deck.some(d => d.id === card.id)) return; // Already in deck
   deck.push(card);
   updateDeckUI();
-  renderTierList();
+  syncTierListDeckState(); // Instant state update without re-rendering images
 }
 
 function removeFromDeckIndex(index) {
   deck.splice(index, 1);
   updateDeckUI();
-  renderTierList();
+  syncTierListDeckState();
 }
 
 function removeFromDeckById(id) {
   deck = deck.filter(d => d.id !== id);
   updateDeckUI();
-  renderTierList();
+  syncTierListDeckState();
+}
+
+// Surgical DOM update for tier list when deck changes (NEVER destroys image tags)
+function syncTierListDeckState() {
+  document.querySelectorAll('.tier-card').forEach(cardEl => {
+    const cardId = parseInt(cardEl.dataset.id, 10);
+    const inDeck = deck.some(d => d.id === cardId);
+    
+    cardEl.classList.toggle('in-deck', inDeck);
+    
+    let overlay = cardEl.querySelector('.in-deck-overlay');
+    if (inDeck) {
+      if (!overlay) {
+        overlay = document.createElement('div');
+        overlay.className = 'in-deck-overlay';
+        overlay.textContent = '✓ DECK';
+        cardEl.querySelector('.card-thumb-wrapper').appendChild(overlay);
+      }
+    } else {
+      if (overlay) {
+        overlay.remove();
+      }
+    }
+  });
 }
 
 function updateDeckUI() {
@@ -299,6 +323,7 @@ function renderTierList() {
         const inDeck = deck.some(d => d.id === c.id);
         const cardEl = document.createElement('div');
         cardEl.className = `tier-card ${inDeck ? 'in-deck' : ''}`;
+        cardEl.dataset.id = c.id; // Store ID for fast DOM lookup
         cardEl.style.setProperty('--card-lane', LANE_COLORS[c.type] || 'var(--gold)');
         
         cardEl.innerHTML = `
@@ -316,7 +341,8 @@ function renderTierList() {
         `;
 
         cardEl.addEventListener('click', () => {
-          if (inDeck) {
+          const isAlreadyInDeck = deck.some(d => d.id === c.id);
+          if (isAlreadyInDeck) {
             removeFromDeckById(c.id);
           } else {
             addToDeck(c);

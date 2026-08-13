@@ -27,6 +27,7 @@
   <div class="nav-tabs">
     <button class="tab-btn active" data-tab="rankingTab">Ranking Table</button>
     <button class="tab-btn" data-tab="deckTab">Deck Builder & Tier List</button>
+    <button class="tab-btn" data-tab="skillsTab">Skill Finder</button>
   </div>
 
   <!-- TAB 1: Ranking Table -->
@@ -138,11 +139,29 @@
     </div>
   </div>
 
+  <!-- TAB 3: GameTora-Style Skill Finder -->
+  <div id="skillsTab" class="tab-content">
+    <div class="skills-layout">
+      <div class="skills-controls">
+        <input type="text" id="skillSearch" placeholder="Type a skill name (e.g. Maestro, Slipstream)..." autocomplete="off">
+        <select id="skillCategoryFilter">
+          <option value="">All Skill Sources (Hint & Event)</option>
+          <option value="Hint">Hint Skills Only</option>
+          <option value="Event">Event Skills Only</option>
+        </select>
+      </div>
+
+      <div id="skillList" class="gallery-card-grid">
+        <!-- Card Tiles rendered dynamically by script.js -->
+      </div>
+    </div>
+  </div>
+
   <footer>
     <div class="footer-note">Score is an experimental formula weighing RB, SP gained and total stat gain. SSR Light Hello assumed as training partner throughout. Runs recorded / updated-stat flags omitted from this view.</div>
     <div class="footer-credit">Special thanks to Loopacord for providing the research data &middot; Independent Training Research</div>
     <div class="footer-vibecode">Vibecoded by Baburu &middot; <a href="https://www.twitch.tv/baburubaburu" target="_blank" rel="noopener">https://www.twitch.tv/baburubaburu</a></div>
-    <div class="footer-support">If you want to Support me: <a href="https://streamelements.com/baburubaburu/tip" target="_blank" rel="noopener">https://streamelements.com/baburubaburu/tip</a></div>
+    <div class="footer-support">If you want to Support me at: <a href="https://streamelements.com/baburubaburu/tip" target="_blank" rel="noopener">https://streamelements.com/baburubaburu/tip</a></div>
   </footer>
 </div>
 

@@ -155,8 +155,8 @@ select, input[type="text"]{
   outline:none;
 }
 
-#searchInput{
-  width: 220px;
+#searchInput, #skillSearch{
+  width: 280px;
 }
 
 select:focus, input:focus{ border-color: var(--gold); }
@@ -677,6 +677,107 @@ td.num{
   font-size: 13px;
   font-style: italic;
   padding: 10px;
+}
+
+/* ========================================= */
+/* TAB 3: GAMETORA-STYLE CARD GALLERY        */
+/* ========================================= */
+
+.skills-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skills-controls {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.gallery-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(115px, 1fr));
+  gap: 16px;
+}
+
+.gt-card-tile {
+  background: var(--panel-alt);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: transform .15s ease, border-color .15s ease, box-shadow .15s ease;
+  position: relative;
+  user-select: none;
+}
+
+.gt-card-tile:hover {
+  transform: translateY(-3px);
+  border-color: var(--card-lane, var(--gold));
+  box-shadow: 0 4px 14px rgba(0,0,0,0.4);
+}
+
+.gt-card-img-wrap {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #12141b;
+  border: 2px solid var(--card-lane, var(--gold));
+}
+
+.gt-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  font-size: 0;
+  color: transparent;
+}
+
+.gt-badge-type {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  background: rgba(0, 0, 0, 0.85);
+  color: var(--card-lane, var(--gold));
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 5px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.gt-card-name {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--text);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.gt-matched-skill {
+  font-size: 10px;
+  color: var(--gold);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  background: rgba(224, 184, 75, 0.12);
+  border-radius: 3px;
+  padding: 2px 4px;
+  font-weight: 600;
 }
 
 /* Footer & Credit Styling */

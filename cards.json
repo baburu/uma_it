@@ -69,7 +69,7 @@
     "power": 89.0,
     "guts": 23.0,
     "wit": 23.0,
-    "total": 201,
+    "total": 205,
     "sp": 300.0,
     "rb": 10.0,
     "img": "img/haru_urara_ssr_power.png"
@@ -138,13 +138,13 @@
     "name": "Sweep Tosho SSR",
     "lb": "MLB",
     "type": "Speed",
-    "score": 2.94,
-    "speed": 115.0,
+    "score": 2.96,
+    "speed": 118.0,
     "stamina": 22.0,
-    "power": 50.0,
+    "power": 51.0,
     "guts": 22.0,
     "wit": 22.0,
-    "total": 231,
+    "total": 235,
     "sp": 230.0,
     "rb": 10.0,
     "img": "img/sweep_tosho_ssr.png"
@@ -165,6 +165,21 @@
     "img": "img/nice_nature_ssr.png"
   },
   {
+    "name": "Biko Pegasus SSR",
+    "lb": "MLB",
+    "type": "Speed",
+    "score": 2.92,
+    "speed": 128.0,
+    "stamina": 24.0,
+    "power": 50.0,
+    "guts": 24.0,
+    "wit": 24.0,
+    "total": 250,
+    "sp": 190.0,
+    "rb": 10.0,
+    "img": "img/biko_pegasus_ssr.png"
+  },
+  {
     "name": "El Condor Pasa SSR",
     "lb": "MLB",
     "type": "Power",
@@ -178,21 +193,6 @@
     "sp": 190.0,
     "rb": 10.0,
     "img": "img/el_condor_pasa_ssr.png"
-  },
-  {
-    "name": "Biko Pegasus SSR",
-    "lb": "MLB",
-    "type": "Speed",
-    "score": 2.88,
-    "speed": 126.0,
-    "stamina": 23.0,
-    "power": 49.0,
-    "guts": 23.0,
-    "wit": 23.0,
-    "total": 244,
-    "sp": 190.0,
-    "rb": 10.0,
-    "img": "img/biko_pegasus_ssr.png"
   },
   {
     "name": "Yukino Bijin SSR",
@@ -285,6 +285,21 @@
     "img": "img/daitaku_helios_ssr.png"
   },
   {
+    "name": "Sakura Bakushin O SSR",
+    "lb": "MLB",
+    "type": "Guts",
+    "score": 2.83,
+    "speed": 46.0,
+    "stamina": 22.0,
+    "power": 42.0,
+    "guts": 116.0,
+    "wit": 22.0,
+    "total": 248,
+    "sp": 170.0,
+    "rb": 10.0,
+    "img": "img/sakura_bakushin_o_ssr_guts.png"
+  },
+  {
     "name": "Light Hello SSR",
     "lb": "MLB",
     "type": "Friend",
@@ -373,6 +388,21 @@
     "sp": 235.0,
     "rb": 10.0,
     "img": "img/agnes_tachyon_sr.png"
+  },
+  {
+    "name": "Seeking the Pearl SSR",
+    "lb": "MLB",
+    "type": "Speed",
+    "score": 2.76,
+    "speed": 93.0,
+    "stamina": 23.0,
+    "power": 79.0,
+    "guts": 23.0,
+    "wit": 23.0,
+    "total": 241,
+    "sp": 250.0,
+    "rb": 5.0,
+    "img": "img/seeking_the_pearl_ssr.png"
   },
   {
     "name": "Super Creek SSR",
@@ -525,6 +555,21 @@
     "img": "img/silence_suzuka_ssr.png"
   },
   {
+    "name": "Ines Fujin SSR",
+    "lb": "3LB",
+    "type": "Guts",
+    "score": 2.66,
+    "speed": 60.0,
+    "stamina": 25.0,
+    "power": 46.0,
+    "guts": 98.0,
+    "wit": 25.0,
+    "total": 254,
+    "sp": 200.0,
+    "rb": 5.0,
+    "img": "img/ines_fujin_ssr_guts.png"
+  },
+  {
     "name": "Marvelous Sunday SR",
     "lb": "MLB",
     "type": "Wit",
@@ -597,7 +642,7 @@
     "total": 207,
     "sp": 190.0,
     "rb": 10.0,
-    "img": "img/syrius_symboli_sr.png"
+    "img": "img/syrius_symboli_ssr.png"
   },
   {
     "name": "Special Week SSR",
@@ -669,7 +714,7 @@
     "power": 98.0,
     "guts": 24.0,
     "wit": 24.0,
-    "total": 201,
+    "total": 229,
     "sp": 185.0,
     "rb": 10.0,
     "img": "img/admire_vega_ssr_power.png"
@@ -780,6 +825,21 @@
     "img": "img/super_creek_ssr.png"
   },
   {
+    "name": "Gold City SSR",
+    "lb": "MLB",
+    "type": "Speed",
+    "score": 2.55,
+    "speed": 93.0,
+    "stamina": 22.0,
+    "power": 51.0,
+    "guts": 22.0,
+    "wit": 22.0,
+    "total": 210,
+    "sp": 160.0,
+    "rb": 10.0,
+    "img": "img/gold_city_ssr.png"
+  },
+  {
     "name": "Smart Falcon SSR",
     "lb": "MLB",
     "type": "Power",
@@ -823,6 +883,21 @@
     "sp": 280.0,
     "rb": 5.0,
     "img": "img/seiun_sky_sr_wit.png"
+  },
+  {
+    "name": "Oguri Cap SR",
+    "lb": "MLB",
+    "type": "Guts",
+    "score": 2.52,
+    "speed": 53.0,
+    "stamina": 21.0,
+    "power": 50.0,
+    "guts": 66.0,
+    "wit": 21.0,
+    "total": 211,
+    "sp": 150.0,
+    "rb": 10.0,
+    "img": "img/oguri_cap_sr_guts.png"
   },
   {
     "name": "Meisho Doto SR",
@@ -870,6 +945,21 @@
     "img": "img/daitaku_helios_sr.png"
   },
   {
+    "name": "Silence Suzuka SSR",
+    "lb": "3LB",
+    "type": "Speed",
+    "score": 2.51,
+    "speed": 93.0,
+    "stamina": 22.0,
+    "power": 49.0,
+    "guts": 22.0,
+    "wit": 22.0,
+    "total": 208,
+    "sp": 240.0,
+    "rb": 5.0,
+    "img": "img/silence_suzuka_ssr.png"
+  },
+  {
     "name": "Agnes Tachyon SSR",
     "lb": "MLB",
     "type": "Speed",
@@ -898,6 +988,21 @@
     "sp": 160.0,
     "rb": 5.0,
     "img": "img/silence_suzuka_ssr_stamina.png"
+  },
+  {
+    "name": "Bamboo Memory SSR",
+    "lb": "MLB",
+    "type": "Power",
+    "score": 2.5,
+    "speed": 22.0,
+    "stamina": 50.0,
+    "power": 129.0,
+    "guts": 22.0,
+    "wit": 22.0,
+    "total": 245,
+    "sp": 250.0,
+    "rb": 5.0,
+    "img": "img/bamboo_memory_ssr.png"
   },
   {
     "name": "Zenno Rob Roy SSR",
@@ -969,7 +1074,7 @@
     "power": 97.0,
     "guts": 21.0,
     "wit": 21.0,
-    "total": 201,
+    "total": 206,
     "sp": 150.0,
     "rb": 10.0,
     "img": "img/sakura_bakushin_o_sr_power.png"
@@ -1018,6 +1123,21 @@
     "sp": 200.0,
     "rb": 5.0,
     "img": "img/nice_nature_sr_wit.png"
+  },
+  {
+    "name": "Narita Taishin SR",
+    "lb": "MLB",
+    "type": "Speed",
+    "score": 2.44,
+    "speed": 108.0,
+    "stamina": 25.0,
+    "power": 47.0,
+    "guts": 25.0,
+    "wit": 25.0,
+    "total": 230,
+    "sp": 180.0,
+    "rb": 5.0,
+    "img": "img/narita_taishin_sr.png"
   },
   {
     "name": "Ikuno Dictus SR",
@@ -1170,6 +1290,21 @@
     "img": "img/heirs_to_the_throne_ssr.png"
   },
   {
+    "name": "Heirs to the Throne SSR",
+    "lb": "1LB",
+    "type": "Group",
+    "score": 2.37,
+    "speed": 48.0,
+    "stamina": 34.0,
+    "power": 34.0,
+    "guts": 34.0,
+    "wit": 34.0,
+    "total": 184,
+    "sp": 330.0,
+    "rb": 0.0,
+    "img": "img/heirs_to_the_throne_ssr.png"
+  },
+  {
     "name": "Rice Shower SSR",
     "lb": "MLB",
     "type": "Power",
@@ -1198,6 +1333,21 @@
     "sp": 200.0,
     "rb": 5.0,
     "img": "img/biwa_hayahide_ssr_stamina.png"
+  },
+  {
+    "name": "Super Creek SSR",
+    "lb": "1LB",
+    "type": "Stamina",
+    "score": 2.35,
+    "speed": 22.0,
+    "stamina": 108.0,
+    "power": 22.0,
+    "guts": 50.0,
+    "wit": 22.0,
+    "total": 224,
+    "sp": 150.0,
+    "rb": 6.0,
+    "img": "img/super_creek_ssr.png"
   },
   {
     "name": "Tosen Jordan SR",
@@ -1245,6 +1395,21 @@
     "img": "img/mr_cb_ssr.png"
   },
   {
+    "name": "Light Hello SSR",
+    "lb": "2LB",
+    "type": "Friend",
+    "score": 2.34,
+    "speed": 21.0,
+    "stamina": 21.0,
+    "power": 21.0,
+    "guts": 47.0,
+    "wit": 21.0,
+    "total": 131,
+    "sp": 360.0,
+    "rb": 3.0,
+    "img": "img/light_hello_ssr.png"
+  },
+  {
     "name": "Tazuna Hayakawa SSR",
     "lb": "MLB",
     "type": "Friend",
@@ -1258,6 +1423,21 @@
     "sp": 400.0,
     "rb": 0.0,
     "img": "img/tazuna_hayakawa_ssr.png"
+  },
+  {
+    "name": "Curren Chan SR",
+    "lb": "MLB",
+    "type": "Speed",
+    "score": 2.32,
+    "speed": 106.0,
+    "stamina": 22.0,
+    "power": 46.0,
+    "guts": 22.0,
+    "wit": 22.0,
+    "total": 218,
+    "sp": 170.0,
+    "rb": 5.0,
+    "img": "img/curren_chan_sr.png"
   },
   {
     "name": "Special Week SR",
@@ -1335,6 +1515,36 @@
     "img": "img/mejiro_mcqueen_ssr.png"
   },
   {
+    "name": "Seiun Sky SSR",
+    "lb": "3LB",
+    "type": "Stamina",
+    "score": 2.28,
+    "speed": 23.0,
+    "stamina": 88.0,
+    "power": 23.0,
+    "guts": 52.0,
+    "wit": 23.0,
+    "total": 209,
+    "sp": 175.0,
+    "rb": 5.0,
+    "img": "img/seiun_sky_ssr_stamina.png"
+  },
+  {
+    "name": "Mr. CB SSR",
+    "lb": "1LB",
+    "type": "Wit",
+    "score": 2.28,
+    "speed": 42.0,
+    "stamina": 21.0,
+    "power": 21.0,
+    "guts": 21.0,
+    "wit": 83.0,
+    "total": 188,
+    "sp": 210.0,
+    "rb": 5.0,
+    "img": "img/mr_cb_ssr.png"
+  },
+  {
     "name": "Mayano Top Gun SSR",
     "lb": "MLB",
     "type": "Speed",
@@ -1367,6 +1577,21 @@
   {
     "name": "King Halo SSR",
     "lb": "MLB",
+    "type": "Power",
+    "score": 2.27,
+    "speed": 22.0,
+    "stamina": 56.0,
+    "power": 126.0,
+    "guts": 22.0,
+    "wit": 22.0,
+    "total": 248,
+    "sp": 190.0,
+    "rb": 0.0,
+    "img": "img/king_halo_ssr_power.png"
+  },
+  {
+    "name": "King Halo SSR",
+    "lb": "2LB",
     "type": "Power",
     "score": 2.27,
     "speed": 22.0,
@@ -1425,6 +1650,21 @@
     "img": "img/satono_diamond_ssr_wit.png"
   },
   {
+    "name": "Seiun Sky SSR",
+    "lb": "2LB",
+    "type": "Stamina",
+    "score": 2.26,
+    "speed": 23.0,
+    "stamina": 87.0,
+    "power": 23.0,
+    "guts": 50.0,
+    "wit": 23.0,
+    "total": 206,
+    "sp": 175.0,
+    "rb": 5.0,
+    "img": "img/seiun_sky_ssr_stamina.png"
+  },
+  {
     "name": "Kawakami Princess SSR",
     "lb": "1LB",
     "type": "Speed",
@@ -1453,6 +1693,21 @@
     "sp": 180.0,
     "rb": 3.0,
     "img": "img/maruzensky_ssr.png"
+  },
+  {
+    "name": "Admire Vega SSR",
+    "lb": "3LB",
+    "type": "Power",
+    "score": 2.25,
+    "speed": 23.0,
+    "stamina": 55.0,
+    "power": 92.0,
+    "guts": 23.0,
+    "wit": 23.0,
+    "total": 216,
+    "sp": 180.0,
+    "rb": 5.0,
+    "img": "img/admire_vega_ssr_power.png"
   },
   {
     "name": "Mejiro Ryan SR",
@@ -1485,6 +1740,21 @@
     "img": "img/narita_top_road_ssr.png"
   },
   {
+    "name": "Smart Falcon SSR",
+    "lb": "3LB",
+    "type": "Power",
+    "score": 2.23,
+    "speed": 23.0,
+    "stamina": 53.0,
+    "power": 92.0,
+    "guts": 23.0,
+    "wit": 23.0,
+    "total": 214,
+    "sp": 150.0,
+    "rb": 5.0,
+    "img": "img/smart_falcon_ssr.png"
+  },
+  {
     "name": "Meisho Doto SSR",
     "lb": "MLB",
     "type": "Stamina",
@@ -1498,6 +1768,111 @@
     "sp": 150.0,
     "rb": 0.0,
     "img": "img/meisho_doto_ssr.png"
+  },
+  {
+    "name": "Seeking the Pearl SSR",
+    "lb": "1LB",
+    "type": "Speed",
+    "score": 2.2,
+    "speed": 72.0,
+    "stamina": 22.0,
+    "power": 45.0,
+    "guts": 22.0,
+    "wit": 22.0,
+    "total": 183,
+    "sp": 250.0,
+    "rb": 2.0,
+    "img": "img/seeking_the_pearl_ssr.png"
+  },
+  {
+    "name": "Nakayama Festa SSR",
+    "lb": "2LB",
+    "type": "Wit",
+    "score": 2.2,
+    "speed": 36.0,
+    "stamina": 25.0,
+    "power": 25.0,
+    "guts": 25.0,
+    "wit": 86.0,
+    "total": 197,
+    "sp": 260.0,
+    "rb": 0.0,
+    "img": "img/nakayama_festa_ssr.png"
+  },
+  {
+    "name": "Rice Shower SSR",
+    "lb": "MLB",
+    "type": "Wit",
+    "score": 2.19,
+    "speed": 44.0,
+    "stamina": 22.0,
+    "power": 22.0,
+    "guts": 22.0,
+    "wit": 81.0,
+    "total": 191,
+    "sp": 180.0,
+    "rb": 5.0,
+    "img": "img/rice_shower_ssr_wit.png"
+  },
+  {
+    "name": "Light Hello SSR",
+    "lb": "1LB",
+    "type": "Friend",
+    "score": 2.18,
+    "speed": 21.0,
+    "stamina": 21.0,
+    "power": 21.0,
+    "guts": 46.0,
+    "wit": 21.0,
+    "total": 130,
+    "sp": 340.0,
+    "rb": 2.0,
+    "img": "img/light_hello_ssr.png"
+  },
+  {
+    "name": "Vodka SR",
+    "lb": "MLB",
+    "type": "Speed",
+    "score": 2.18,
+    "speed": 74.0,
+    "stamina": 23.0,
+    "power": 58.0,
+    "guts": 23.0,
+    "wit": 23.0,
+    "total": 201,
+    "sp": 160.0,
+    "rb": 5.0,
+    "img": "img/vodka_sr.png"
+  },
+  {
+    "name": "Sakura Chiyono O SSR",
+    "lb": "2LB",
+    "type": "Stamina",
+    "score": 2.18,
+    "speed": 23.0,
+    "stamina": 78.0,
+    "power": 23.0,
+    "guts": 46.0,
+    "wit": 23.0,
+    "total": 193,
+    "sp": 175.0,
+    "rb": 5.0,
+    "img": "img/sakura_chiyono_o_ssr.png"
+  },
+  {
+    "name": "Agnes Tachyon SSR",
+    "lb": "3LB",
+    "type": "Speed",
+    "score": 2.17,
+    "speed": 112.0,
+    "stamina": 20.0,
+    "power": 43.0,
+    "guts": 20.0,
+    "wit": 20.0,
+    "total": 215,
+    "sp": 220.0,
+    "rb": 0.0,
+    "img": "img/agnes_tachyon_ssr.png"
   },
   {
     "name": "Riko Kashimoto SSR",
@@ -1528,21 +1903,6 @@
     "sp": 250.0,
     "rb": 0.0,
     "img": "img/nakayama_festa_ssr.png"
-  },
-  {
-    "name": "Vodka SR",
-    "lb": "MLB",
-    "type": "Speed",
-    "score": 2.14,
-    "speed": 72.0,
-    "stamina": 22.0,
-    "power": 57.0,
-    "guts": 22.0,
-    "wit": 22.0,
-    "total": 195,
-    "sp": 160.0,
-    "rb": 5.0,
-    "img": "img/vodka_sr.png"
   },
   {
     "name": "Narita Brian SSR",
@@ -1605,6 +1965,21 @@
     "img": "img/rice_shower_ssr_stamina.png"
   },
   {
+    "name": "Tamamo Cross SSR",
+    "lb": "0LB",
+    "type": "Stamina",
+    "score": 2.13,
+    "speed": 23.0,
+    "stamina": 81.0,
+    "power": 23.0,
+    "guts": 44.0,
+    "wit": 23.0,
+    "total": 194,
+    "sp": 160.0,
+    "rb": 5.0,
+    "img": "img/tamamo_cross_ssr.png"
+  },
+  {
     "name": "Gold Ship SSR",
     "lb": "MLB",
     "type": "Stamina",
@@ -1620,6 +1995,51 @@
     "img": "img/gold_ship_ssr.png"
   },
   {
+    "name": "Gold Ship SSR",
+    "lb": "MLB",
+    "type": "Speed",
+    "score": 2.14,
+    "speed": 73.0,
+    "stamina": 23.0,
+    "power": 58.0,
+    "guts": 23.0,
+    "wit": 23.0,
+    "total": 200,
+    "sp": 240.0,
+    "rb": 0.0,
+    "img": "img/gold_ship_ssr_speed.png"
+  },
+  {
+    "name": "Twin Turbo SSR",
+    "lb": "MLB",
+    "type": "Guts",
+    "score": 2.12,
+    "speed": 64.0,
+    "stamina": 20.0,
+    "power": 49.0,
+    "guts": 66.0,
+    "wit": 20.0,
+    "total": 219,
+    "sp": 200.0,
+    "rb": 0.0,
+    "img": "img/twin_turbo_ssr.png"
+  },
+  {
+    "name": "Vodka SSR",
+    "lb": "0LB",
+    "type": "Power",
+    "score": 2.11,
+    "speed": 22.0,
+    "stamina": 50.0,
+    "power": 74.0,
+    "guts": 22.0,
+    "wit": 22.0,
+    "total": 190,
+    "sp": 160.0,
+    "rb": 5.0,
+    "img": "img/vodka_ssr_power.png"
+  },
+  {
     "name": "Ines Fujin SR",
     "lb": "MLB",
     "type": "Wit",
@@ -1633,6 +2053,36 @@
     "sp": 160.0,
     "rb": 5.0,
     "img": "img/ines_fujin_sr.png"
+  },
+  {
+    "name": "Seeking the Pearl R",
+    "lb": "MLB",
+    "type": "Guts",
+    "score": 2.1,
+    "speed": 36.0,
+    "stamina": 21.0,
+    "power": 34.0,
+    "guts": 54.0,
+    "wit": 21.0,
+    "total": 166,
+    "sp": 200.0,
+    "rb": 5.0,
+    "img": "img/seeking_the_pearl_r.png"
+  },
+  {
+    "name": "Narita Brian SSR",
+    "lb": "3LB",
+    "type": "Speed",
+    "score": 2.1,
+    "speed": 103.0,
+    "stamina": 21.0,
+    "power": 40.0,
+    "guts": 21.0,
+    "wit": 21.0,
+    "total": 206,
+    "sp": 130.0,
+    "rb": 5.0,
+    "img": "img/narita_brian_ssr_speed.png"
   },
   {
     "name": "Mihono Bourbon SSR",
@@ -1710,6 +2160,21 @@
     "img": "img/matikanefukukitaru_sr.png"
   },
   {
+    "name": "Sweep Tosho SSR",
+    "lb": "0LB",
+    "type": "Speed",
+    "score": 2.01,
+    "speed": 93.0,
+    "stamina": 20.0,
+    "power": 40.0,
+    "guts": 22.0,
+    "wit": 22.0,
+    "total": 197,
+    "sp": 120.0,
+    "rb": 5.0,
+    "img": "img/sweep_tosho_ssr.png"
+  },
+  {
     "name": "Air Shakur SSR",
     "lb": "MLB",
     "type": "Speed",
@@ -1723,6 +2188,21 @@
     "sp": 130.0,
     "rb": 5.0,
     "img": "img/air_shakur_ssr_speed.png"
+  },
+  {
+    "name": "Mayano Top Gun SSR",
+    "lb": "1LB",
+    "type": "Speed",
+    "score": 2.0,
+    "speed": 79.0,
+    "stamina": 23.0,
+    "power": 55.0,
+    "guts": 23.0,
+    "wit": 23.0,
+    "total": 203,
+    "sp": 160.0,
+    "rb": 2.0,
+    "img": "img/mayano_top_gun_ssr_speed.png"
   },
   {
     "name": "Aoi Kiryuin SR",
@@ -1740,6 +2220,81 @@
     "img": "img/aoi_kiryuin_sr.png"
   },
   {
+    "name": "Silence Suzuka SSR",
+    "lb": "MLB",
+    "type": "Speed",
+    "score": 1.98,
+    "speed": 77.0,
+    "stamina": 22.0,
+    "power": 42.0,
+    "guts": 22.0,
+    "wit": 22.0,
+    "total": 185,
+    "sp": 132.0,
+    "rb": 5.0,
+    "img": "img/silence_suzuka_ssr_speed.png"
+  },
+  {
+    "name": "Silence Suzuka R",
+    "lb": "MLB",
+    "type": "Speed",
+    "score": 1.98,
+    "speed": 53.0,
+    "stamina": 20.0,
+    "power": 35.0,
+    "guts": 20.0,
+    "wit": 20.0,
+    "total": 148,
+    "sp": 200.0,
+    "rb": 5.0,
+    "img": "img/silence_suzuka_r.png"
+  },
+  {
+    "name": "King Halo SR",
+    "lb": "MLB",
+    "type": "Speed",
+    "score": 1.97,
+    "speed": 95.0,
+    "stamina": 23.0,
+    "power": 52.0,
+    "guts": 23.0,
+    "wit": 23.0,
+    "total": 216,
+    "sp": 164.0,
+    "rb": 0.0,
+    "img": "img/king_halo_sr_speed.png"
+  },
+  {
+    "name": "Winning Ticket SSR",
+    "lb": "MLB",
+    "type": "Power",
+    "score": 1.97,
+    "speed": 23.0,
+    "stamina": 51.0,
+    "power": 91.0,
+    "guts": 23.0,
+    "wit": 23.0,
+    "total": 211,
+    "sp": 190.0,
+    "rb": 0.0,
+    "img": "img/winning_ticket_ssr_power.png"
+  },
+  {
+    "name": "Light Hello SSR",
+    "lb": "0LB",
+    "type": "Friend",
+    "score": 1.94,
+    "speed": 20.0,
+    "stamina": 20.0,
+    "power": 20.0,
+    "guts": 44.0,
+    "wit": 20.0,
+    "total": 124,
+    "sp": 300.0,
+    "rb": 1.0,
+    "img": "img/light_hello_ssr.png"
+  },
+  {
     "name": "Tazuna Hayakawa SSR",
     "lb": "2LB",
     "type": "Friend",
@@ -1753,6 +2308,36 @@
     "sp": 350.0,
     "rb": 0.0,
     "img": "img/tazuna_hayakawa_ssr.png"
+  },
+  {
+    "name": "Riko Kashimoto SSR",
+    "lb": "1LB",
+    "type": "Friend",
+    "score": 1.92,
+    "speed": 20.0,
+    "stamina": 20.0,
+    "power": 20.0,
+    "guts": 20.0,
+    "wit": 20.0,
+    "total": 100,
+    "sp": 250.0,
+    "rb": 6.0,
+    "img": "img/riko_kashimoto_ssr.png"
+  },
+  {
+    "name": "Admire Vega SSR",
+    "lb": "1LB",
+    "type": "Power",
+    "score": 1.92,
+    "speed": 24.0,
+    "stamina": 53.0,
+    "power": 89.0,
+    "guts": 24.0,
+    "wit": 24.0,
+    "total": 214,
+    "sp": 175.0,
+    "rb": 0.0,
+    "img": "img/admire_vega_ssr_power.png"
   },
   {
     "name": "Yukino Bijin SSR",
@@ -1800,6 +2385,21 @@
     "img": "img/agnes_tachyon_ssr.png"
   },
   {
+    "name": "Sakura Bakushin O SSR",
+    "lb": "0LB",
+    "type": "Guts",
+    "score": 1.9,
+    "speed": 38.0,
+    "stamina": 21.0,
+    "power": 36.0,
+    "guts": 59.0,
+    "wit": 21.0,
+    "total": 175,
+    "sp": 130.0,
+    "rb": 5.0,
+    "img": "img/sakura_bakushin_o_ssr_guts.png"
+  },
+  {
     "name": "Sasami Anshinzawa SSR",
     "lb": "MLB",
     "type": "Friend",
@@ -1813,6 +2413,36 @@
     "sp": 330.0,
     "rb": 0.0,
     "img": "img/sasami_anshinzawa_ssr.png"
+  },
+  {
+    "name": "Sweep Tosho R",
+    "lb": "MLB",
+    "type": "Speed",
+    "score": 1.89,
+    "speed": 47.0,
+    "stamina": 20.0,
+    "power": 32.0,
+    "guts": 20.0,
+    "wit": 20.0,
+    "total": 139,
+    "sp": 190.0,
+    "rb": 5.0,
+    "img": "img/sweep_tosho_r.png"
+  },
+  {
+    "name": "Zenno Rob Roy SSR",
+    "lb": "2LB",
+    "type": "Speed",
+    "score": 1.87,
+    "speed": 87.0,
+    "stamina": 23.0,
+    "power": 46.0,
+    "guts": 23.0,
+    "wit": 23.0,
+    "total": 202,
+    "sp": 160.0,
+    "rb": 0.0,
+    "img": "img/zenno_rob_roy_ssr.png"
   },
   {
     "name": "King Halo SSR",
@@ -1839,7 +2469,7 @@
     "power": 103.0,
     "guts": 21.0,
     "wit": 21.0,
-    "total": 201,
+    "total": 226,
     "sp": 160.0,
     "rb": 0.0,
     "img": "img/inari_one_sr_power.png"
@@ -1875,6 +2505,51 @@
     "img": "img/smart_falcon_ssr.png"
   },
   {
+    "name": "Mayano Top Gun SSR",
+    "lb": "0LB",
+    "type": "Speed",
+    "score": 1.81,
+    "speed": 65.0,
+    "stamina": 23.0,
+    "power": 54.0,
+    "guts": 23.0,
+    "wit": 23.0,
+    "total": 188,
+    "sp": 150.0,
+    "rb": 1.0,
+    "img": "img/mayano_top_gun_ssr_speed.png"
+  },
+  {
+    "name": "Smart Falcon SSR",
+    "lb": "1LB",
+    "type": "Power",
+    "score": 1.77,
+    "speed": 22.0,
+    "stamina": 50.0,
+    "power": 87.0,
+    "guts": 22.0,
+    "wit": 22.0,
+    "total": 203,
+    "sp": 130.0,
+    "rb": 0.0,
+    "img": "img/smart_falcon_ssr.png"
+  },
+  {
+    "name": "Agnes Tachyon SSR",
+    "lb": "0LB",
+    "type": "Speed",
+    "score": 1.76,
+    "speed": 89.0,
+    "stamina": 20.0,
+    "power": 42.0,
+    "guts": 20.0,
+    "wit": 20.0,
+    "total": 191,
+    "sp": 150.0,
+    "rb": 0.0,
+    "img": "img/agnes_tachyon_ssr.png"
+  },
+  {
     "name": "King Halo SSR",
     "lb": "0LB",
     "type": "Power",
@@ -1888,5 +2563,50 @@
     "sp": 150.0,
     "rb": 0.0,
     "img": "img/king_halo_ssr_power.png"
+  },
+  {
+    "name": "Oguri Cap SSR",
+    "lb": "0LB",
+    "type": "Power",
+    "score": 1.68,
+    "speed": 22.0,
+    "stamina": 38.0,
+    "power": 85.0,
+    "guts": 22.0,
+    "wit": 22.0,
+    "total": 189,
+    "sp": 130.0,
+    "rb": 0.0,
+    "img": "img/oguri_cap_ssr_power.png"
+  },
+  {
+    "name": "Air Shakur SSR",
+    "lb": "0LB",
+    "type": "Wit",
+    "score": 1.67,
+    "speed": 32.0,
+    "stamina": 23.0,
+    "power": 23.0,
+    "guts": 23.0,
+    "wit": 65.0,
+    "total": 166,
+    "sp": 170.0,
+    "rb": 0.0,
+    "img": "img/air_shakur_ssr_wit.png"
+  },
+  {
+    "name": "Hishi Akebono SSR",
+    "lb": "0LB",
+    "type": "Guts",
+    "score": 1.64,
+    "speed": 38.0,
+    "stamina": 22.0,
+    "power": 36.0,
+    "guts": 59.0,
+    "wit": 22.0,
+    "total": 177,
+    "sp": 140.0,
+    "rb": 0.0,
+    "img": "img/hishi_akebono_ssr.png"
   }
 ]

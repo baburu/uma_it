@@ -1905,6 +1905,21 @@
     "img": "img/nakayama_festa_ssr.png"
   },
   {
+    "name": "Gold Ship SSR",
+    "lb": "MLB",
+    "type": "Speed",
+    "score": 2.14,
+    "speed": 73.0,
+    "stamina": 23.0,
+    "power": 58.0,
+    "guts": 23.0,
+    "wit": 23.0,
+    "total": 200,
+    "sp": 240.0,
+    "rb": 0.0,
+    "img": "img/gold_ship_ssr_speed.png"
+  },
+  {
     "name": "Narita Brian SSR",
     "lb": "MLB",
     "type": "Speed",
@@ -1995,21 +2010,6 @@
     "img": "img/gold_ship_ssr.png"
   },
   {
-    "name": "Gold Ship SSR",
-    "lb": "MLB",
-    "type": "Speed",
-    "score": 2.14,
-    "speed": 73.0,
-    "stamina": 23.0,
-    "power": 58.0,
-    "guts": 23.0,
-    "wit": 23.0,
-    "total": 200,
-    "sp": 240.0,
-    "rb": 0.0,
-    "img": "img/gold_ship_ssr_speed.png"
-  },
-  {
     "name": "Twin Turbo SSR",
     "lb": "MLB",
     "type": "Guts",
@@ -2053,21 +2053,6 @@
     "sp": 160.0,
     "rb": 5.0,
     "img": "img/ines_fujin_sr.png"
-  },
-  {
-    "name": "Seeking the Pearl R",
-    "lb": "MLB",
-    "type": "Guts",
-    "score": 2.1,
-    "speed": 36.0,
-    "stamina": 21.0,
-    "power": 34.0,
-    "guts": 54.0,
-    "wit": 21.0,
-    "total": 166,
-    "sp": 200.0,
-    "rb": 5.0,
-    "img": "img/seeking_the_pearl_r.png"
   },
   {
     "name": "Narita Brian SSR",
@@ -2235,21 +2220,6 @@
     "img": "img/silence_suzuka_ssr_speed.png"
   },
   {
-    "name": "Silence Suzuka R",
-    "lb": "MLB",
-    "type": "Speed",
-    "score": 1.98,
-    "speed": 53.0,
-    "stamina": 20.0,
-    "power": 35.0,
-    "guts": 20.0,
-    "wit": 20.0,
-    "total": 148,
-    "sp": 200.0,
-    "rb": 5.0,
-    "img": "img/silence_suzuka_r.png"
-  },
-  {
     "name": "King Halo SR",
     "lb": "MLB",
     "type": "Speed",
@@ -2413,21 +2383,6 @@
     "sp": 330.0,
     "rb": 0.0,
     "img": "img/sasami_anshinzawa_ssr.png"
-  },
-  {
-    "name": "Sweep Tosho R",
-    "lb": "MLB",
-    "type": "Speed",
-    "score": 1.89,
-    "speed": 47.0,
-    "stamina": 20.0,
-    "power": 32.0,
-    "guts": 20.0,
-    "wit": 20.0,
-    "total": 139,
-    "sp": 190.0,
-    "rb": 5.0,
-    "img": "img/sweep_tosho_r.png"
   },
   {
     "name": "Zenno Rob Roy SSR",
